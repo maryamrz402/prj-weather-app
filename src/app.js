@@ -40,7 +40,7 @@ countryElemnt.innerHTML=response.data.country;
 descriptionElement.innerHTML=response.data.condition.description;
 humidityElement.innerHTML= response.data.temperature.humidity;
 windElement.innerHTML=Math.round( response.data.wind.speed);
-tempElement.innerHTML= response.data.temperature.temp;
+
 dateElement.innerHTML= formatDate(response.data.time *1000);
 iconElement.setAttribute("src",`http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`);
 iconElement.setAttribute("alt", response.data.condition.description);
@@ -54,7 +54,7 @@ iconElement.setAttribute("alt", response.data.condition.description);
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`; 
     axios.get(apiUrl).then(displayWeather);
    }
-   console.log(apiUrl);
+   
 
  function handleSubmit(event){
     event.preventDefault();
