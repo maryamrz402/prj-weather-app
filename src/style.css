@@ -37,3 +37,18 @@ li:first-letter{
 .image-temp .active :hover{
     text-decoration: none;
 }
+.weather-forecast{
+    margin-top: 20 px;
+    text-align:center ;
+    color: blue;
+}
+.weather-forecast-date{
+    font-size: 16 px;
+     opacity: 0.5;
+}
+.weather-forecast-temperatures-min{
+    opacity: 0.5;
+}
+.weather-forecast-temperatures{
+    font-size: 13 px;
+}
