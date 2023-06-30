@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="weather">
     <div class="container">
         <div class="weather-app">
             <form id="search-form"  class="mb-3">
@@ -23,7 +24,7 @@
                 autofocus="on"
                 ></div><div class="col-3">
                 <input type="submit" 
-                value="search" class="btn btn-primary w-100"/></div>
+                value="search" class="btn btn-primary w-100 "/></div>
             </div>
             </form>
         <h1 id="city">
@@ -68,24 +69,10 @@
             </div>
         </div>
     
-    <div class="weather-forecast">
-        <div class="row">
-            <div class="col-2">
-                <div class="weather-forecast-date">Tue</div>
-                
-                <img src="" 
-                alt=""
-                width="42"/>
-                <div class="weather-forecast-temperatures">
-                    <span class="weather-forecast-temperatures-max">18°</span>
-                    <span class="weather-forecast-temperatures-min">12°</span>
-                </div>
-                
-            </div>
-        </div>
+    <div class="weather-forecast" id="forecast">
     </div>
-</div>
-</div>
+
+</div></div>
 <footer>
     <small>
         <a href="https://github.com/maryamrz402/prj-weather-app"

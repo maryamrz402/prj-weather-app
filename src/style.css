@@ -1,9 +1,13 @@
 .weather-app{
     max-width: 600px;
     margin: 10px auto;
-    border: 1px solid blue;
+    border: 1px solid #179cd4;
     border-radius: 5px;
     padding:  20px;
+     
+}
+body{color: #179cd4;
+
 }
     h1{
         color: #878787;
