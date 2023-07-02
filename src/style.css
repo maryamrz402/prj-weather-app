@@ -4,10 +4,18 @@
     border: 1px solid #179cd4;
     border-radius: 5px;
     padding:  20px;
-     
+    background-color:#e4f1fe ;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOCUWp8K1jFinH318oQBbqhdoRVYxsVXIoA&usqp=CAU");
+     background-size: cover;
+     background-repeat: no-repeat;
 }
-body{color: #179cd4;
-
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3v3AaZuNTCqPwiD4c6HSSbm-JIFAFUjX3zQ&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn {
+    background-color: #76e2f4;
 }
     h1{
         color: #878787;
@@ -44,7 +52,7 @@ li:first-letter{
 .weather-forecast{
     margin-top: 20 px;
     text-align:center ;
-    color: blue;
+    color: black;
 }
 .weather-forecast-date{
     font-size: 16 px;

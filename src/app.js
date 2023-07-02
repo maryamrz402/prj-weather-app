@@ -105,39 +105,10 @@ getForecast(response.data.coordinates);
  let cityInputElement=document.querySelector("#city-input");
 search(cityInputElement.value);
  }
- 
- function showFahrenheitTemp(event){
-    event.preventDefault();
-    let tempElement= document.querySelector("#temp");
 
-    celsiusLink.classList.remove("active");
-    fahrenheitLink.classList.add("active");
-    let fahrenheitTemp=(celsiusTemp*9)/ 5 + 32;
-    tempElement.innerHTML=Math.round(fahrenheitTemp);
-    
-
-}
-function showCelsiusTemp(event){
-   event.preventDefault();
-
-   celsiusLink.classList.add("active");
-    fahrenheitLink.classList.remove("active");
-   let tempElement= document.querySelector("#temp");
-tempElement.innerHTM = Math.round(celsiusTemp); 
-
-}
-
-
-
-let celsiusTemp = null;
  
  let form = document.querySelector("#search-form");
  form.addEventListener("submit",handleSubmit);
   
- let fahrenheitLink=document.querySelector("#fahrenheit-link");
- fahrenheitLink.addEventListener("click",showFahrenheitTemp);
-
-
- let celsiusLink=document.querySelector("#celsius-link");
- celsiusLink.addEventListener("click",showCelsiusTemp);
+ 
  
