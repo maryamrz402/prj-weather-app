@@ -12,7 +12,7 @@
 }
 
     h1{
-        color: #878787;
+ color: #878787;
     
  line-height: 28px;
 font-size: 70px;
@@ -20,21 +20,23 @@ font-weight: normal;
 }
 li{
     list-style: none;
-    color: rgb(82, 77, 77);
+    font-weight: 100 px;
     display: block;
     font-size: 16px;
-    font-weight: 100;
-    
+    font-weight: 200 px;
+    color: black;
+    opacity: 0.7;
 }
- 
 
 footer{
-    text-align: center;
-    
+    text-align: center; 
+
 }
-.deg{
+
+    .deg{
     font-size: 60px;
     font-weight: 600;
+    text-align: center;
 }
 li:first-letter{
     text-transform: capitalize;
