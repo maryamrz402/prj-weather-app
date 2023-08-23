@@ -1,22 +1,16 @@
 .weather-app{
     max-width: 600px;
     margin: 10px auto;
-    border: 1px solid #179cd4;
+    border: 1px solid #81cae9;
     border-radius: 5px;
     padding:  20px;
     background-color:#e4f1fe ;
      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOCUWp8K1jFinH318oQBbqhdoRVYxsVXIoA&usqp=CAU");
      background-size: cover;
      background-repeat: no-repeat;
+     box-shadow: 12px 12px 12px 1px rgb(80,89,128,0,2);
 }
-body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3v3AaZuNTCqPwiD4c6HSSbm-JIFAFUjX3zQ&usqp=CAU");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.btn {
-    background-color: #76e2f4;
-}
+
     h1{
         color: #878787;
     
@@ -26,11 +20,14 @@ font-weight: normal;
 }
 li{
     list-style: none;
-    color: rgb(135, 135,135);
+    color: rgb(82, 77, 77);
     display: block;
     font-size: 16px;
     font-weight: 100;
+    
 }
+ 
+
 footer{
     text-align: center;
     
