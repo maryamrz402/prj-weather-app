@@ -4,12 +4,12 @@
     border: 1px solid #81cae9;
     border-radius: 5px;
     padding:  20px;
-    background-color:#e4f1fe ;
-     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOCUWp8K1jFinH318oQBbqhdoRVYxsVXIoA&usqp=CAU");
-     background-size: cover;
-     background-repeat: no-repeat;
-     box-shadow: 12px 12px 12px 1px rgb(80,89,128,0,2);
+    background-color:#93deff ;
+    box-shadow: 12px 12px 12px 1px rgb(80,89,128,0,2);
 }
+
+
+
 
     h1{
  color: #878787;
